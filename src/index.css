@@ -10,3 +10,8 @@ body {
   margin: 0;
   background-color: #999999;
 }
+
+main {
+  margin: 80px auto;
+  text-align: center;
+}
