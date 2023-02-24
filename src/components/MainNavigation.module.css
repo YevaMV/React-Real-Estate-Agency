@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Fredoka+One&family=Gluten&family=Great+Vibes&family=Roboto:wght@100&family=Signika:wght@300;400&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  color: rgb(215, 38, 66);
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
