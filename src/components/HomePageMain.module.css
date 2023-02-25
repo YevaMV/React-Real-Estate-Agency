@@ -1,0 +1,10 @@
+.top-block {
+  padding: 0 10%;
+}
+
+.bottom-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10%;
+}
