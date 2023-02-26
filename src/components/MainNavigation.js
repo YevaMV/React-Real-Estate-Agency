@@ -42,7 +42,17 @@ function MainNavigation(props) {
             </li>
             <li>
               <NavLink
-                to="about"
+                to="/sell"
+                className={({ isActive }) =>
+                  isActive ? classes.active : undefined
+                }
+              >
+                Վաճառել
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
                 className={({ isActive }) =>
                   isActive ? classes.active : undefined
                 }
@@ -52,7 +62,7 @@ function MainNavigation(props) {
             </li>
             <li>
               <NavLink
-                to="contact"
+                to="/contact"
                 className={({ isActive }) =>
                   isActive ? classes.active : undefined
                 }

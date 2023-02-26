@@ -48,7 +48,7 @@ function HomePageMain() {
           button="Վարձակալել անշարժ գույք"
         />
         <HomePageBottomSection
-          link="/rent"
+          link="/sell"
           title="Վաճառել անշարժ գույք"
           img={post7}
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
