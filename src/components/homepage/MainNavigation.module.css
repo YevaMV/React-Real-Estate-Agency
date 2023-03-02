@@ -31,7 +31,7 @@
 
 .list a:hover,
 .list a.active {
-  padding-bottom: 30px;
+  padding-bottom: 28px;
   border-bottom: 3px solid rgb(215, 38, 66);
 }
 

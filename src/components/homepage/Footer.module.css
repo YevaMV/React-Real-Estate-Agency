@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  padding: 10%;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.contact {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact a {
+  letter-spacing: 1.6px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}

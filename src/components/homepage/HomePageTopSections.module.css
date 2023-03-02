@@ -3,6 +3,7 @@
   height: auto;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .special {
@@ -13,7 +14,7 @@
 }
 
 .image-block {
-  width: 50%;
+  width: 607.5px;
   height: 430px;
   object-fit: contain;
 }

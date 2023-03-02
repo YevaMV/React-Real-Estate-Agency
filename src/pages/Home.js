@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import background from '../assets/background.jpg';
-import HomePageMain from '../components/HomePageMain';
+import HomePageMain from '../components/homepage/HomePageMain';
 import classes from './Home.module.css';
 
 function HomePage() {
